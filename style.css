@@ -1,15 +1,14 @@
-ul {
-    list-style-type: none;
+/* Global */
+body, html {
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
-li {
-    float: right;
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
+.right-nav {
+    float: right;
 }
