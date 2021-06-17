@@ -28,6 +28,12 @@ header {
     font-size: 13px;
 }
 
+#profile-picture {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
 /* Main */
 #main-logo {
     padding: 30px;
@@ -47,7 +53,7 @@ header {
 #search-bar-box {
     width: auto;
     max-width: 584px;
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -55,17 +61,44 @@ header {
     border: 1px solid;
 }
 
-input {
-    width: 90%;
-    margin: 5px 5px;
+#search-bar img {
+    margin-top: 1px;
 }
 
+input.search {
+    width: 70%;
+}
+
+#buttons-container {
+    text-align: center;
+}
+
+input.btn {
+    padding: 10px;
+    margin: 5px;
+    background-color: #dddddd;
+    border: none;
+    border-radius: 5%;
+    color: #505050;
+    cursor: pointer;
+}
+
+
 /* Footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 #footer-navbar {
     background-color: #dddddd;
+    padding: 20px;
 }
 
 #footer-navbar a {
     color: #505050;
     font-size: 14px;
+    padding: 10px;
 }
