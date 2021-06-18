@@ -1,5 +1,6 @@
 # Overview
 The goal of this project is to build the layout of Google.com homepage.
+[Click Here](https://gmonteiro13.github.io/google-homepage/) to check the preview!
 
 # Tech used
 HTML, CSS
