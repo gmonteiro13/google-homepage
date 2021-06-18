@@ -11,14 +11,18 @@
 </head>
 
 <body>
-    <header>
+    <div id="header">
         <div id="top-navbar" class="right-nav">
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <a href="#"><img src="./apps_black_24dp.svg" alt="Google Apps"></a>
-            <a href="#"><img id="profile-picture" src="./profile-picture.jpg" alt="Profile Picture"></a>
+            <div id="header-links">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+            </div>
+            <div id="header-imgs">
+                <a href="#"><img id="google-apps" src="./apps_black_24dp.svg" alt="Google Apps"></a>
+                <a href="#"><img id="profile-picture" src="./profile-picture.jpg" alt="Profile Picture"></a>    
+            </div>
         </div>
-    </header>
+    </div>
 
     <main>
         <div id="main-logo">
@@ -28,9 +32,9 @@
 
         <div id="search-bar">
             <div id="search-bar-box">
-                <img src="./search_black_24dp.svg" alt="Search Icon">
+                <img class="search-img" src="./search_black_24dp.svg" alt="Search Icon">
                 <input class="search" type="text">
-                <img src="./mic_black_24dp.svg" alt="Search Icon">
+                <img class="mic-img" src="./mic_black_24dp.svg" alt="Search Icon">
             </div> 
         </div>
 
