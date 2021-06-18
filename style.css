@@ -119,12 +119,13 @@ img.mic-img {
 
 #buttons-container {
     text-align: center;
+    padding-top: 18px;
 }
 
 input.btn {
     padding: 10px;
     margin: 5px;
-    background-color: #dddddd;
+    background-color: #F8F9FA;
     border: none;
     border-radius: 5%;
     color: #505050;
@@ -141,7 +142,7 @@ footer {
 }
 
 #footer-navbar {
-    background-color: #dddddd;
+    background-color: #f2f2f2;
     padding: 20px;
 }
 
